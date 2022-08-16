@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Тест (опросник) эмоционального интеллекта Люсина - психодиагностическая методика, основанная на самоотчёте, предназначенная дл измерения эмоционального интеллекта (EQ) в соответствии с теоретическими представлениями автора.
+Опросник ЭмИн был проведён на 218 испытуемых. Эта выборка состояла из 187 студентов вузов Москвы и Великого Новгорода, обучавшихся по специальностям «психолог» и «менеджер», и 31 специалиста различного профиля. В неё входило 62 (28%) испытуемых мужского пола и 156 (72%) испытуемых женского пола, средний возраст испытуемых 21,8 года.
+
+Для оценки надёжности ЭмИн вычислялись показатели внутренней согласованности α Кронбаха по всем шкалам и субшкалам. Внутренняя согласованность основных шкал 0,80 и выше, что является достаточно высокими показателями для опросников. Внутренняя согласованность субшкал несколько ниже (в районе 0,7), но и её можно признать удовлетворительной, за исключением субшкалы ВЭ (0,51).
+Для изучения внутренней структуры опросника и её соответствия предложенным шкалам был проведён факторный анализ. Факторы выделялись методом главных компонент. Мера адекватности выборки KMO оказалась равна 0,790, значимость коэффициента сферичности Бартлетта меньше 0,001. Это свидетельствует о высокой надёжности вычисления корреляционной матрицы.
+В окончательном виде опросник ЭмИн состоит из 46 утверждений, по отношению к которым испытуемый должен выразить степень своего согласия, используя четырёхбалльную шкалу (совсем не согласен, скорее не согласен, скорее согласен, полностью согласен). Эти утверждения объединяются в пять субшкал, которые, в свою очередь, объединяются в четыре шкалы более общего порядка:
+
+Шкала МЭИ (межличностный ЭИ). Способность к пониманию эмоций других людей и управлению ими.
+
+Шкала ВЭИ (внутриличностный ЭИ). Способность к пониманию собственных эмоций и управлению ими.
+
+Шкала ПЭ (понимание эмоций). Способность к пониманию своих и чужих эмоций.
+
+Шкала УЭ (управление эмоциями). Способность к управлению своими и чужими эмоциями.
+
+Субшкала МП (понимание чужих эмоций). Способность понимать эмоциональное состояние человека на основе внешних проявлений эмоций (мимика, жестикуляция, звучание голоса) и/или интуитивно; чуткость к внутренним состояниям других людей.
+
+Субшкала МУ (управление чужими эмоциями). Способность вызывать у других людей те или иные эмоции, снижать интенсивность нежелательных эмоций. Возможно, склонность к манипулированию людьми.
+
+Субшкала ВП (понимание своих эмоций). Способность к осознанию своих эмоций: их распознавание и идентификация, понимание причин, способность к вербальному описанию.
+
+Субшкала ВУ (управление своими эмоциями). Способность и потребность управлять своими эмоциями, вызывать и поддерживать желательные эмоции и держать под контролем нежелательные.
+
+Субшкала ВЭ (контроль экспрессии). Способность контролировать внешние проявления своих эмоций</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="timer2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>104, 17</value>
+  </metadata>
+  <metadata name="timer3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>191, 17</value>
+  </metadata>
+</root>
